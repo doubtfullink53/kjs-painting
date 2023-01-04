@@ -1,0 +1,14 @@
+#logo-image{
+ width: 7vh;
+ height: auto;
+ 
+}
+
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.logo-text{
+    font-weight: 700;
+}
+
