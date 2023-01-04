@@ -1,14 +1,41 @@
 #logo-image{
  width: 7vh;
  height: auto;
- 
+
 }
 
 body{
     font-family: 'PT Serif', serif;
+    
+}
+
+.cards-container{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .logo-text{
     font-weight: 700;
+    
 }
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color:#fff;
+  }
 
+
+img-comparison-slider {
+   
+    --divider-width: 5px;
+    --divider-color: #c0c0c0;
+    --default-handle-opacity: 0.3;
+  }
+
+  img-comparison-slider  > img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
