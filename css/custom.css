@@ -23,10 +23,40 @@ body{
 }
 
 .logo-text{
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
 
+.phone-number{
+  font-size: 1.5rem;
+  /* padding-right: 20px; */
+  color: white !important;
+  text-decoration: none;
+}
+
+
+.email-contact {
+  
+  font-size: 1.5rem;
+  color: white !important;
+  text-decoration: none;
+}
+
+.location-contact{
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .email-contact {
+    font-size: 1.1rem;
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+
+.contact-us-form  {
+  /* padding-bottom: 40px; */
+}
 
 
 footer {
