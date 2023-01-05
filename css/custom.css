@@ -124,3 +124,42 @@ img-comparison-slider {
   }
 
   /* about page container */
+  .about-page-container {
+    
+    height: 50rem; 
+    
+    margin-top:40px;
+    
+  }
+
+
+  .about-page-container img {
+    width: 40vh; 
+  
+  }
+  .about-image-mobile{
+    display: none;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .about-page-container img {
+      width: 30vh; 
+    
+    }
+    .about-image-desktop{
+      display: none;
+    }
+    .about-image-mobile{
+      display: contents;
+    }
+  
+  
+
+  }
+
+
+
+  .about-page-container > .card {
+    align-items: center;
+  }
+
