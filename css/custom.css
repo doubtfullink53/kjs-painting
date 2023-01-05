@@ -26,6 +26,9 @@ body{
     font-weight: 700;
     
 }
+
+
+
 footer {
     /* position: absolute; */
     bottom: 0;
@@ -42,6 +45,15 @@ footer {
       background-color: #333;
       color:#fff;
     }
+  }
+
+
+  .owner-image {
+    display: flex;
+    justify-content: center;
+  }
+  .owner-image > img {
+    width: 20vw;
   }
 
 /* footer icons */
@@ -110,3 +122,5 @@ img-comparison-slider {
   .after figcaption {
     right: 12px;
   }
+
+  /* about page container */
