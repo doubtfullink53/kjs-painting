@@ -4,10 +4,18 @@
 
 }
 
+
+
 body{
     font-family: 'PT Serif', serif;
     
 }
+
+/* icon dimensions facebook, phone number */
+/* i{
+  width:150px;
+} */
+
 
 .cards-container{
     margin-top: 4vh;
@@ -26,6 +34,28 @@ footer {
     color:#fff;
   }
 
+/* footer icons */
+
+  .footer {
+    /* background: #061D25; */
+  
+    padding: 10px 0;
+  }
+  .footer a {
+    
+    justify-content: center;
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  .footer a:hover {
+    color: white;
+  }
 
 /* image slider, before and after  */
 img-comparison-slider {
