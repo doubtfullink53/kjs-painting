@@ -74,8 +74,6 @@ footer {
 /* footer icons */
 
 .footer {
-  /* background: #061D25; */
-
   padding: 10px 0;
 }
 .footer a {
@@ -133,8 +131,13 @@ img-comparison-slider img {
 .after figcaption {
   right: 12px;
 }
+/* image slider, end  */
 
 /* about page container */
+
+.blockabout  h3{
+    font-size: 2rem;
+}
 .about-page-container {
   height: 60rem;
 
@@ -157,7 +160,7 @@ img-comparison-slider img {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .about-page-container img {
     width: 30vh;
   }
@@ -172,3 +175,4 @@ img-comparison-slider img {
 .about-page-container > .card {
   align-items: center;
 }
+/* about page container end */
