@@ -162,6 +162,10 @@ img-comparison-slider {
     
   }
 
+  .form-success-text{
+    width: 100vw;
+  }
+
 
   .about-page-container img {
     width: 40vh; 
