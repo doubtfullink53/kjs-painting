@@ -16,15 +16,21 @@ body {
   font-weight: 700;
 }
 
-.phone-number {
-  font-size: 1.5rem;
-  /* padding-right: 20px; */
+.phone-number-index {
+  font-size: 5vw;
   color: white !important;
   text-decoration: none;
 }
 
+.phone-number-contact{
+  font-size: 4vw;
+  color: white !important;
+  text-decoration: none;
+  
+}
+
 .email-contact {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: white !important;
   text-decoration: none;
 }
@@ -35,10 +41,20 @@ body {
 
 @media only screen and (max-width: 600px) {
   .email-contact {
-    font-size: 1.1rem;
+    font-size: 5vw;
     color: white !important;
     text-decoration: none;
   }
+  .phone-number-index {
+    font-size: 10vw;
+  }
+  .phone-number-contact{
+    font-size: 10vw;
+    color: white !important;
+    text-decoration: none;
+    
+  }
+  
 }
 
 .contact-us-form {
