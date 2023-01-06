@@ -176,3 +176,9 @@ img-comparison-slider img {
   align-items: center;
 }
 /* about page container end */
+
+/* services page container */
+
+.services-container  img{
+  /* height: 50vw; */
+}
