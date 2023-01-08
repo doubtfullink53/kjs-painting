@@ -125,14 +125,17 @@ img-comparison-slider {
   --divider-width: 5px;
   --divider-color: #c0c0c0;
   --default-handle-opacity: 1;
-  --default-handle-width: 80px;
+  --default-handle-width: 120px;
+  --default-handle-shadow:5px 15px 5px rgb(235, 102, 102);
+  
 }
 
 img-comparison-slider img {
   width: 100%;
-  height: 30vh;
+  height: 50vh;
   object-fit: cover;
 }
+
 
 .before,
 .after {
@@ -208,6 +211,3 @@ img-comparison-slider img {
 
 /* services page container */
 
-.services-container  img{
-  /* height: 50vw; */
-}
